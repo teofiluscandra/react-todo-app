@@ -1,6 +1,18 @@
-## React Todo App for Facebook Developer Circle Bali
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+# Workshop materials
+### Facebook Developer Circle Bali
+#### 3 December 2017 @Gedung Sewaka Dharma
+#### Topic : React JS for Beginners 
+#### Materials :
+* Folder 1 (Build To Do App)
+## Contributing
+Pull requests are welcome with another example or slide material.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+##Installation
+use yarn instead npm
+```
+yarn install
+```
+```
+yarn start
+```

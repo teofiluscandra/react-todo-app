@@ -9,7 +9,7 @@ export default class TodoItems extends Component {
     }
 
     createTask(item){
-        return <li onClick={(e) => this.delete(item.key, e)} key={item.key}>{item.text}</li>
+        return <div className="box" onClick={(e) => this.delete(item.key, e)} key={item.key}>{item.text}</div>
     }
 
     delete(key) {
@@ -21,9 +21,9 @@ export default class TodoItems extends Component {
         let listItems = todoEntries.map(this.createTask)
 
         return (
-            <ul className="theList">
+            <div className="theList">
                 {listItems}        
-            </ul>
+            </div>
         )
     }
 }
