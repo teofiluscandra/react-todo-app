@@ -9,7 +9,7 @@ Pull requests are welcome with another example or slide material.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 ##Installation
-use yarn instead npm
+####use yarn instead npm
 ```
 yarn install
 ```
